@@ -1,0 +1,49 @@
+@use "../../common/colors.scss" as colors;
+
+.header {
+  background-color: colors.$secondary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  .logo {
+    a {
+      flex-basis: 15%;
+      color: colors.$font-primary;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+  .user-img {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  .form {
+    flex-basis: 58%;
+    margin: auto;
+    form {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      input {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.1rem;
+        outline: 0;
+        border: 0;
+      }
+      button {
+        padding: 0.4rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

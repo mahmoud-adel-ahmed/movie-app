@@ -1,0 +1,13 @@
+@use "../../common/colors.scss" as colors;
+
+.footer {
+  background-color: colors.$secondary-color;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: colors.$font-primary;
+  text-transform: capitalize;
+}

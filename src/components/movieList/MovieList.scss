@@ -1,0 +1,23 @@
+@use "../../common/colors.scss" as colors;
+
+.movie-wrapper {
+  .movie-list,
+  .shows-list {
+    margin-block: 2rem;
+    h2 {
+      color: colors.$font-primary;
+      text-align: center;
+      text-transform: capitalize;
+      margin-block-end: 0.7rem;
+      font-weight: 400;
+    }
+    // .movie-container,
+    // .shows-container {
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(min(17rem, 100%), 1fr));
+    // justify-content: center;
+    // align-items: center;
+    // gap: 0.7rem;
+    // }
+  }
+}
